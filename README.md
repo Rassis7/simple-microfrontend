@@ -11,16 +11,23 @@ Primeiro, deve entrar na pasta de cada serviço instalar os pacotes e startar o 
 `cd src/reactApp`
 `yarn && yarn serve`
 
-E fazer o mesmo na raíz do projeto:
+E faça o mesmo na raíz do projeto:
 
-`yarn && yarn start`
+`yarn && yarn serve`
 
 Abra [http://localhost:5000](http://localhost:5000)
 
+
 #### Executar o projeto separadamente
 
-Entre em `src/{NOME_DO_APP}` e rode o comando de execução.
+Entre em `src/{NOME_DO_APP}`
 
-`$ cd src/reactApp && yarn start`
+Crie o `.env`
+
+`cp .env-example .env`
+
+E rode o comando de execução:
+
+`cd src/reactApp && yarn start`
 
 Abra [http://localhost:3000](http://localhost:3000)
